@@ -13,7 +13,7 @@ Add FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters) before  RouteConfi
 
 Step 3:
 ---
-Add mapping kernel.Bind<Interface>().To<ConcreteClass>() in RegisterServices. 
+Add mapping kernel.Bind< Interface >().To < ConcreteClass >() in RegisterServices. 
 
 Step 4:
 ---
